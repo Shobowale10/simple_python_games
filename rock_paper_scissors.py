@@ -33,6 +33,12 @@ while True:
             print("Compuer Wins!")
             computer_wins += 1
 
+if (user_wins > computer_wins):
+        winner = "You Won !!"
+else:
+        winner = "Computer Won!!"
+
 print("You won", user_wins, "times.")
 print("The Computer won", computer_wins, "times.")
+print(winner)
 print("Goodbye!")
